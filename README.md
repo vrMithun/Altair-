@@ -12,10 +12,10 @@ Analysis of **395 student records** exploring factors influencing mathematics pe
 
 ### Age & Education Background
 
-| | |
-|---|---|
-| ![Age Distribution](Univariate%20Analysis/AgeDist.png) | ![Mother's Education](Univariate%20Analysis/MeduDist.png) |
-| ![Father's Education](Univariate%20Analysis/FeduDist.png) | ![Internet Access](Univariate%20Analysis/Internet.png) |
+|                                                           |                                                           |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| ![Age Distribution](Univariate%20Analysis/AgeDist.png)    | ![Mother's Education](Univariate%20Analysis/MeduDist.png) |
+| ![Father's Education](Univariate%20Analysis/FeduDist.png) | ![Internet Access](Univariate%20Analysis/Internet.png)    |
 
 ---
 
@@ -23,8 +23,8 @@ Analysis of **395 student records** exploring factors influencing mathematics pe
 
 ### Final Grade Distribution & Pass/Fail Outcomes
 
-| | |
-|---|---|
+|                                                      |                                                        |
+| ---------------------------------------------------- | ------------------------------------------------------ |
 | ![G3 Distribution](Univariate%20Analysis/G3Hist.png) | ![Pass/Fail Ratio](Univariate%20Analysis/Passfail.png) |
 
 ---
@@ -32,6 +32,7 @@ Analysis of **395 student records** exploring factors influencing mathematics pe
 ## 3. Key Findings: What Drives Performance?
 
 ### Previous Performance → Final Grade
+
 ![G2 vs G3](Bivariate%20Analysis/G2%20vs%20G3.png)
 
 **Insight**: Strongest predictor of success. Previous grades highly correlate with final performance.
@@ -39,8 +40,9 @@ Analysis of **395 student records** exploring factors influencing mathematics pe
 ---
 
 ### Study Time → Academic Success
-| | |
-|---|---|
+
+|                                                                       |                                                                                |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | ![Study Time vs Grade](Bivariate%20Analysis/Studytime%20vs.%20G3.png) | ![Study Time vs Pass](Bivariate%20Analysis/Studytime%20vs%20Pass%28avg%29.png) |
 
 **Insight**: More study hours = higher grades and better pass rates.
@@ -48,6 +50,7 @@ Analysis of **395 student records** exploring factors influencing mathematics pe
 ---
 
 ### Attendance Impact
+
 ![Absences vs Grade](Bivariate%20Analysis/G3%20vs%20Absence.png)
 
 **Insight**: Higher absenteeism strongly correlates with lower grades.
@@ -58,8 +61,8 @@ Analysis of **395 student records** exploring factors influencing mathematics pe
 
 ### Family Support & Parental Education Effects
 
-| | |
-|---|---|
+|                                                              |                                                                       |
+| ------------------------------------------------------------ | --------------------------------------------------------------------- |
 | ![Family Support](Bivariate%20Analysis/Famsup%20vs%20G3.png) | ![Parental Education](Bivariate%20Analysis/parentEdu%20vs%20Pass.png) |
 
 **Insight**: Family support and educated parents significantly improve outcomes.
@@ -70,10 +73,10 @@ Analysis of **395 student records** exploring factors influencing mathematics pe
 
 ### Lifestyle Balance
 
-| | |
-|---|---|
+|                                                                        |                                                                      |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | ![Romantic Relationships](Bivariate%20Analysis/G3%20vs%20Romantic.png) | ![Free Time](Bivariate%20Analysis/Freetime%28Avg%29%20vs%20Pass.png) |
-| ![Social Outings](Bivariate%20Analysis/goout%28avg%29%20vs%20Pass.png) | ![Health Status](Bivariate%20Analysis/G3%20vs%20health.png) |
+| ![Social Outings](Bivariate%20Analysis/goout%28avg%29%20vs%20Pass.png) | ![Health Status](Bivariate%20Analysis/G3%20vs%20health.png)          |
 
 **Insight**: Moderate social engagement optimizes performance; balance is key.
 
@@ -81,8 +84,8 @@ Analysis of **395 student records** exploring factors influencing mathematics pe
 
 ### Digital Access & Lifestyle
 
-| | |
-|---|---|
+|                                                                 |                                                           |
+| --------------------------------------------------------------- | --------------------------------------------------------- |
 | ![Internet Access](Bivariate%20Analysis/G3%20vs%20Internet.png) | ![Alcohol Consumption](Bivariate%20Analysis/WalcDalc.png) |
 
 **Insight**: Internet access aids academic work. Alcohol consumption shows varied patterns weekdays vs weekends.
@@ -91,14 +94,14 @@ Analysis of **395 student records** exploring factors influencing mathematics pe
 
 ## Summary: Performance Drivers
 
-| Factor | Impact | Priority |
-|--------|--------|----------|
+| Factor                   | Impact    | Priority   |
+| ------------------------ | --------- | ---------- |
 | **Previous Grades (G2)** | Strongest | **⭐⭐⭐** |
-| **Study Time** | Strong | **⭐⭐⭐** |
-| **Attendance** | Strong | **⭐⭐⭐** |
-| **Family Support** | Moderate | **⭐⭐** |
-| **Parental Education** | Moderate | **⭐⭐** |
-| **Health Status** | Moderate | **⭐⭐** |
+| **Study Time**           | Strong    | **⭐⭐⭐** |
+| **Attendance**           | Strong    | **⭐⭐⭐** |
+| **Family Support**       | Moderate  | **⭐⭐**   |
+| **Parental Education**   | Moderate  | **⭐⭐**   |
+| **Health Status**        | Moderate  | **⭐⭐**   |
 
 ---
 
